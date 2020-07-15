@@ -7,7 +7,13 @@
       "locationName": "500 Market St. Front Door", 
       "videoFeedURL": "10.30.5.101",
       "videoThumbnailURL": "https://i.imgur.com/cqT1lXZ.png",
-      "comment": "Temperature-10.22.11.92"
+      "comment": "Temperature-10.22.11.92",
+      "activeMessage": "Visitors may proceed",
+      "pendingMessage": "Visitors may proceed",
+      "failMessage": "Temperature threshold",
+      "activeColor": "",
+      "pendingColor": "",
+      "failColor": ""
     }, 
     {
       "id": 1,
@@ -16,7 +22,13 @@
       "locationName": "500 Market St. Break Room", 
       "videoFeedURL": "10.30.5.101",
       "videoThumbnailURL": "https://i.imgur.com/cqT1lXZ.png",
-      "comment": ""
+      "comment": "",
+      "activeMessage": "Visitors may proceed",
+      "pendingMessage": "Visitors may proceed",
+      "failMessage": "Temperature threshold",
+      "activeColor": "",
+      "pendingColor": "",
+      "failColor": ""
     },
     {
       "id": 2,
@@ -25,7 +37,13 @@
       "locationName": "500 Market St. Break Room", 
       "videoFeedURL": "10.30.5.101",
       "videoThumbnailURL": "https://i.imgur.com/cqT1lXZ.png",
-      "comment": ""
+      "comment": "",
+      "activeMessage": "Visitors may proceed",
+      "pendingMessage": "Visitors may proceed",
+      "failMessage": "Temperature threshold",
+      "activeColor": "",
+      "pendingColor": "",
+      "failColor": ""
     }
   ]  
 }
