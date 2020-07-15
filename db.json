@@ -1,0 +1,31 @@
+{
+  "sensors": [
+    {
+      "id": 0,
+      "status": "Fail", 
+      "timestamp": "2020-06-22 22:48:03", 
+      "locationName": "500 Market St. Front Door", 
+      "videoFeedURL": "10.30.5.101",
+      "videoThumbnailURL": "https://i.imgur.com/cqT1lXZ.png",
+      "comment": "Temperature-10.22.11.92"
+    }, 
+    {
+      "id": 1,
+      "status": "Active", 
+      "timestamp": "2020-06-22 22:48:05", 
+      "locationName": "500 Market St. Break Room", 
+      "videoFeedURL": "10.30.5.101",
+      "videoThumbnailURL": "https://i.imgur.com/cqT1lXZ.png",
+      "comment": ""
+    },
+    {
+      "id": 2,
+      "status": "Pending", 
+      "timestamp": "2020-06-22 22:48:05", 
+      "locationName": "500 Market St. Break Room", 
+      "videoFeedURL": "10.30.5.101",
+      "videoThumbnailURL": "https://i.imgur.com/cqT1lXZ.png",
+      "comment": ""
+    }
+  ]  
+}
