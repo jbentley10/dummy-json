@@ -2,48 +2,66 @@
   "sensors": [
     {
       "id": 0,
-      "status": "Fail", 
-      "timestamp": "2020-06-22 22:48:03", 
-      "locationName": "Entrance door 1", 
-      "videoFeedURL": "10.30.5.101",
-      "videoThumbnailURL": "https://i.imgur.com/cqT1lXZ.png",
-      "comment": "Temperature-10.22.11.92",
-      "activeMessage": "Visitors may proceed",
-      "pendingMessage": "Visitors may proceed",
-      "failMessage": "Temperature threshold",
-      "activeColor": "",
-      "pendingColor": "",
-      "failColor": ""
-    }, 
+      "topRowIcon": "temperature-threshold",      
+      "topRowTitle": "Health screening",
+      "topRowSubtitle": "Entrance Door 1",
+      "mainBackgroundColor": "bg-denied-red-background",
+      "mainMessageTitle": "Temperature threshold",
+      "mainMessageSubtitle": "Screening complete",
+      "bottomRowButtonText": "Continue",
+      "bottomRowButtonColor": "primary",
+      "bottomRowButtonFunction": "updateSensor",
+      "bottomRowAdditionalActions": 
+        [
+          {
+            "additionalActionIcon": "video-cam",
+            "additionalActionText": null,
+            "additionalActionFunction": null,
+            "aditionalActionHref": null
+          }
+        ]
+    },
     {
       "id": 1,
-      "status": "Active", 
-      "timestamp": "2020-06-22 22:48:05", 
-      "locationName": "Entrance door 2", 
-      "videoFeedURL": "10.30.5.101",
-      "videoThumbnailURL": "https://i.imgur.com/cqT1lXZ.png",
-      "comment": "",
-      "activeMessage": "Visitors may proceed",
-      "pendingMessage": "Visitors may proceed",
-      "failMessage": "Temperature threshold",
-      "activeColor": "",
-      "pendingColor": "",
-      "failColor": ""
+      "topRowIcon": "proceed",      
+      "topRowTitle": "Health screening",
+      "topRowSubtitle": "Entrance Door 2",
+      "mainBackgroundColor": "bg-proceed-green-background",
+      "mainMessageTitle": "Visitors may proceed",
+      "mainMessageSubtitle": "Screening complete",
+      "bottomRowButtonText": "Stop Visitors",
+      "bottomRowButtonColor": "secondary",
+      "bottomRowButtonFunction": "updateSensor",
+      "bottomRowAdditionalActions": 
+        [
+          {
+            "additionalActionIcon": "video-cam",
+            "additionalActionText": null,
+            "additionalActionFunction": null,
+            "aditionalActionHref": null
+          }
+        ]
     },
     {
       "id": 2,
-      "status": "Pending", 
-      "timestamp": "2020-06-22 22:48:05", 
-      "locationName": "Entrance door 3", 
-      "videoFeedURL": "10.30.5.101",
-      "videoThumbnailURL": "https://i.imgur.com/cqT1lXZ.png",
-      "comment": "",
-      "activeMessage": "Visitors may proceed",
-      "pendingMessage": "Visitors may proceed",
-      "failMessage": "Temperature threshold",
-      "activeColor": "",
-      "pendingColor": "",
-      "failColor": ""
+      "topRowIcon": "proceed",      
+      "topRowTitle": "Health screening",
+      "topRowSubtitle": "Entrance Door 2",
+      "mainBackgroundColor": "bg-proceed-green-background",
+      "mainMessageTitle": "Visitors may proceed",
+      "mainMessageSubtitle": "Screening complete",
+      "bottomRowButtonText": "Stop Visitors",
+      "bottomRowButtonColor": "secondary",
+      "bottomRowButtonFunction": "updateSensor",
+      "bottomRowAdditionalActions": 
+        [
+          {
+            "additionalActionIcon": "video-cam",
+            "additionalActionText": null,
+            "additionalActionFunction": null,
+            "aditionalActionHref": null
+          }
+        ]
     }
-  ]  
+  ]
 }
